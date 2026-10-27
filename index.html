@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Site</title>
+    <meta name="description" content="" />
+    <meta name="author" content="admin" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" alt="" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" media="all" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/easy-responsive-tabs.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+    <div class="pb" id="pb"></div>
+    <div class="glow" id="glow"></div>
+    <nav id="nav">
+      <div class="wrap">
+        <a class="logo" href="#"
+          ><svg
+            viewBox="0 0 40 40"
+            fill="none"
+            stroke="#7bc043"
+            stroke-width="2.5"
+          >
+            <circle cx="20" cy="20" r="17" />
+            <path d="M11 24c4-10 14-12 19-6M14 29c6 2 12-1 14-8" />
+            <circle cx="20" cy="20" r="3" fill="#7bc043" /></svg
+          >OYSTER<small
+            style="
+              display: block;
+              font-size: 6px;
+              letter-spacing: 0.5em;
+              font-weight: 400;
+              margin-top: -2px;
+            "
+          ></small
+        ></a>
+        <div class="menu">
+          <a class="on" href="#">Home</a><a href="#services">Solutions ⌄</a
+          ><a href="#insights">Insights</a><a href="#about">About</a
+          ><a href="#contact">Contact Us</a>
+        </div>
+        <div style="display: flex; align-items: center">
+          <span class="tel">☎ 303.765.4508</span
+          ><a class="btn p" href="#contact">Request a Quote</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" id="hero">
+      <canvas id="stars"></canvas>
+      <svg class="house" id="house" viewBox="0 0 620 400" fill="none">
+        <rect x="40" y="170" width="300" height="230" fill="#e9e6df" />
+        <rect x="40" y="170" width="300" height="12" fill="#2b2b2b" />
+        <rect
+          x="70"
+          y="200"
+          width="240"
+          height="170"
+          fill="#f6c46b"
+          opacity=".85"
+        />
+        <rect x="330" y="110" width="250" height="290" fill="#cfc9be" />
+        <rect x="330" y="110" width="250" height="12" fill="#2b2b2b" />
+        <rect
+          x="355"
+          y="140"
+          width="200"
+          height="110"
+          fill="#ffd488"
+          opacity=".9"
+        />
+        <rect
+          x="355"
+          y="270"
+          width="200"
+          height="110"
+          fill="#f6c46b"
+          opacity=".8"
+        />
+        <rect x="0" y="385" width="620" height="15" fill="#1b2a1b" />
+        <path d="M60 175h260" stroke="#fff" stroke-opacity=".4" />
+      </svg>
+      <div class="ico" style="right: 25%; top: 22%">
+        <svg viewBox="0 0 24 24"><path d="M3 9l10-4 2 4-10 4zM12 13v6" /></svg>
+      </div>
+      <div class="ico" style="right: 10%; top: 18%; animation-delay: -1s">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 3l8 3v6c0 5-4 8-8 9-4-1-8-4-8-9V6z" />
+          <path d="M9 12l2 2 4-4" />
+        </svg>
+      </div>
+      <div class="ico" style="right: 6%; top: 42%; animation-delay: -2s">
+        <svg viewBox="0 0 24 24">
+          <rect x="9" y="3" width="6" height="11" rx="3" />
+          <path d="M5 11a7 7 0 0014 0M12 18v3" />
+        </svg>
+      </div>
+      <div class="ico" style="right: 36%; top: 46%; animation-delay: -3s">
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M2 9a15 15 0 0120 0M5 13a10 10 0 0114 0M8.5 16.5a5 5 0 017 0"
+          />
+          <circle cx="12" cy="20" r="1" />
+        </svg>
+      </div>
+      <div class="ico" style="right: 18%; top: 62%; animation-delay: -4s">
+        <svg viewBox="0 0 24 24">
+          <circle cx="6" cy="6" r="2" />
+          <circle cx="18" cy="6" r="2" />
+          <circle cx="6" cy="18" r="2" />
+          <circle cx="18" cy="18" r="2" />
+          <rect x="9" y="9" width="6" height="6" rx="1" />
+        </svg>
+      </div>
+      <div class="phone">
+        <div><b>⌂</b>Your Home<br />Your Security</div>
+      </div>
+      <div class="wrap">
+        <div class="eyebrow">SECURE · CONNECT · PROTECT</div>
+        <h1>
+          <span><i>Smarter Security.</i></span
+          ><span><i>Stronger Connections.</i></span>
+        </h1>
+        <p>
+          Oyster Digital Security delivers end-to-end physical security, network
+          infrastructure, and intelligent technology solutions designed to
+          create safer, smarter, and more connected environments.
+        </p>
+        <div class="btns">
+          <a class="btn p" href="#contact">Request a Quote</a
+          ><a class="btn w" href="#services">Explore Our Solutions</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="tag rv">
+      <small>A MORE SECURE. MORE CONNECTED WORLD.</small>
+      <div class="stats">
+        <div>
+          <svg viewBox="0 0 24 24">
+            <circle cx="9" cy="7" r="3" />
+            <path d="M3 20c0-4 3-6 6-6s6 2 6 6M17 9l2 2 3-3" /></svg
+          >People Protected
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24">
+            <path d="M4 21V9l8-6 8 6v12zM9 21v-7h6v7" /></svg
+          >Property Protected
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 21c-5-4-8-8-8-12a8 8 0 0116 0c0 4-3 8-8 12z" /></svg
+          >Possibilities Protected
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="services">
+      <div class="wrap rv">
+        <div class="lab">OUR SERVICES</div>
+        <h2>One Partner. Complete Solutions.</h2>
+        <div class="cards" id="cards">
+          <div class="card">
+            <div class="im">
+              <svg viewBox="0 0 24 24">
+                <path d="M3 8l12-4 2 5-12 4zM11 13l-3 7" />
+              </svg>
+            </div>
+            <small>01 — SECURITY CAMERAS</small>
+            <h4>Monitor What Matters Most</h4>
+            <p>
+              Advanced camera systems provide real-time visibility, recording,
+              and monitoring to help protect your people, property, and
+              operations.
+            </p>
+          </div>
+          <div class="card on">
+            <div class="im">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="12" cy="12" r="9" />
+              </svg>
+            </div>
+            <small>02 — ALARMS</small>
+            <h4>Detect Threats. Respond Faster.</h4>
+            <p>
+              Intelligent alarm systems designed to detect unwanted activity,
+              alert the right people, and help you respond quickly.
+            </p>
+          </div>
+          <div class="card">
+            <div class="im">
+              <svg viewBox="0 0 24 24">
+                <rect x="6" y="2" width="12" height="20" rx="2" />
+                <circle cx="12" cy="9" r="2" />
+                <path d="M9 15h6" />
+              </svg>
+            </div>
+            <small>03 — ACCESS CONTROL</small>
+            <h4>Control Every Entry</h4>
+            <p>
+              Manage who enters, where they go, and when they have access with
+              scalable access control solutions.
+            </p>
+          </div>
+          <div class="card">
+            <div class="im">
+              <svg viewBox="0 0 24 24">
+                <path d="M3 3l8 8-3 1 5 2-2 3 3 5M21 4l-6 6M4 14l5-2" />
+              </svg>
+            </div>
+            <small>04 — BULLET PROOFING</small>
+            <h4>Protection When It Matters Most.</h4>
+            <p>
+              Strengthen critical spaces with professional bullet-resistant
+              solutions designed to help protect people and property.
+            </p>
+          </div>
+        </div>
+        <div class="dots"><i></i><i></i><i></i><i></i></div>
+        <div class="cen">
+          <a class="btn p" href="#">Explore Our Services</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="feat">
+      <div class="wrap">
+        <div class="fh rv">
+          <div>
+            <div class="lab" style="text-align: left">OUR FEATURES</div>
+            <h2>Built Around The<br />Technology You Need</h2>
+          </div>
+          <div>
+            <p>
+              Build a reliable network foundation with high-performance wireless
+              and connectivity solutions for your business, security systems,
+              and devices seamlessly connected.
+            </p>
+            <div style="display: flex; gap: 10px; margin-top: 12px">
+              <a class="btn p" href="#">Explore Our Technology</a
+              ><a class="btn o" href="#contact">Request Quote</a>
+            </div>
+          </div>
+        </div>
+        <div class="fl" id="fl">
+          <div class="fi">
+            <em>Surveillance</em>
+            <div>Cameras and analytics that see what matters.</div>
+          </div>
+          <div class="fi">
+            <em>Access</em>
+            <div>Credentials and doors under one roof.</div>
+          </div>
+          <div class="fi on">
+            <em>Connectivity</em>
+            <div>
+              Stay Connected. Stay Secure.<br />Build a reliable network
+              foundation with high-performance wireless and connectivity
+              solutions that keep your business, security systems, and devices
+              seamlessly connected.
+            </div>
+          </div>
+          <div class="fi">
+            <em>Infrastructure</em>
+            <div>Fiber, cabling and racks built to last.</div>
+          </div>
+        </div>
+        <svg class="vr" viewBox="0 0 380 240" fill="none">
+          <ellipse
+            cx="190"
+            cy="110"
+            rx="150"
+            ry="90"
+            fill="#fff"
+            stroke="#d6dcd6"
+            stroke-width="2"
+          />
+          <rect
+            x="95"
+            y="90"
+            width="190"
+            height="90"
+            rx="40"
+            fill="#f4f4f4"
+            stroke="#cfd6cf"
+          />
+          <path
+            d="M80 80c20-60 200-60 220 0"
+            stroke="#d6dcd6"
+            stroke-width="12"
+            stroke-linecap="round"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <section class="sec">
+      <div class="wrap rv">
+        <div class="lab">OUR DEVICES</div>
+        <h2>Technology That Works For You</h2>
+      </div>
+      <div class="mqw"><div class="dev" id="dev"></div></div>
+    </section>
+
+    <section class="wrap" id="about">
+      <div class="about rv">
+        <small>ABOUT US</small>
+        <h3>Your Security.<br />Smarter. Connected.</h3>
+        <p>
+          Oyster Digital LLC Security is a Colorado based company on the cutting
+          edge of security cameras and other security products.
+        </p>
+        <a class="btn p" href="#">Learn More About Us</a>
+        <div class="cam"></div>
+      </div>
+    </section>
+
+    <section class="sec">
+      <div class="wrap rv">
+        <div class="lab">CLIENT TESTIMONIALS</div>
+        <h2>Trusted Technology. Proven Results.</h2>
+        <div class="test">
+          <i class="av" style="left: 6%; top: 10px"></i
+          ><i class="av" style="right: 6%; top: 0; animation-delay: -2s"></i
+          ><i class="av" style="left: 2%; top: 120px; animation-delay: -1s"></i
+          ><i class="av" style="right: 2%; top: 80px; animation-delay: -3s"></i>
+          <div class="av m"></div>
+          <div class="stars">★★★★★</div>
+          <p class="q" id="q">
+            “Oyster delivered exactly what we needed. Their team took the time
+            to understand our requirements, recommended the right technology,
+            and handled every stage of the installation with professionalism.
+            The entire process was seamless, and the final solution has given us
+            greater confidence in our security and infrastructure.”<br /><br />—
+            Operations Director, Commercial Client
+          </p>
+          <div class="arr"><b id="pv">‹</b><b id="nx">›</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="insights" style="padding-top: 20px">
+      <div class="wrap rv">
+        <div class="ih">
+          <div>
+            <div class="lab">INSIGHTS &amp; RESOURCES</div>
+            <h2>Stay Ahead Of<br />Security &amp; Technology</h2>
+          </div>
+          <div>
+            <p>
+              Practical insights, expert guidance, and the latest trends in
+              security, technology, connectivity, and emerging solutions —
+              helping you make smarter decisions for a safer, more connected
+              environment.
+            </p>
+            <a class="btn p" href="#">Explore All Insights</a>
+          </div>
+        </div>
+        <div class="ig">
+          <div class="ib f">
+            <div class="ph"></div>
+            <div>
+              <small>01 — SECURITY CAMERAS</small>
+              <h4>
+                Smarter Surveillance: What to Look for in a Modern Camera System
+              </h4>
+              <p>
+                Discover how modern camera systems deliver clearer visibility,
+                smarter monitoring, and more reliable protection.
+              </p>
+              <a class="btn p" href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="ib d">
+            Modern Access Control: More Than Just a Locked Door
+          </div>
+          <div class="ib d b2">
+            Why Your Security System Starts With Your Network
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ctaw" id="contact">
+      <div class="wrap">
+        <div class="cta rv">
+          <div>
+            <small style="font-size: 10px; letter-spacing: 0.2em"
+              >LET’S TALK</small
+            >
+            <h3>Let’s Bring Your<br />Project To Life</h3>
+            <p>
+              From a single system to a complete technology installation, we’ll
+              understand your requirements, recommend the right solutions, and
+              help bring your project from planning to completion.
+            </p>
+            <div style="display: flex; gap: 10px">
+              <a class="btn w" href="#services">Explore Our Services</a
+              ><a class="btn p" style="background: #2f5a17" href="#"
+                >Request A Quote</a
+              >
+            </div>
+          </div>
+          <form
+            onsubmit="
+              event.preventDefault();
+              this.querySelector('button').textContent = 'Sent ✓';
+            "
+          >
+            <input placeholder="Name*" required /><input
+              placeholder="Company*"
+            /><input placeholder="Email*" type="email" required /><input
+              placeholder="Phone*"
+            /><select class="full">
+              <option>Service Needed</option>
+              <option>Security Cameras</option>
+              <option>Alarms</option>
+              <option>Access Control</option>
+              <option>Networks</option></select
+            ><textarea class="full" placeholder="Project Details"></textarea
+            ><button class="full">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="wrap">
+        <div class="fg">
+          <div>
+            <a class="logo" href="#">OYSTER</a>
+            <p>
+              Integrated security and technology solutions designed to keep your
+              spaces, systems, and people protected and connected.
+            </p>
+          </div>
+          <div>
+            <h5>QUICK LINKS</h5>
+            <ul>
+              <li>Home</li>
+              <li>Solutions</li>
+              <li>Insights</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div>
+            <h5>SERVICES</h5>
+            <ul>
+              <li>Security Cameras</li>
+              <li>Alarms</li>
+              <li>Access Control</li>
+              <li>Audio/Video Home Theater System</li>
+              <li>Networks</li>
+              <li>Bullet Proofing</li>
+            </ul>
+          </div>
+          <div>
+            <h5>CONTACT US</h5>
+            <ul>
+              <li>
+                ⌖ 1250 Technology Drive, Suite 200, Virginia Beach, VA 23452,
+                USA
+              </li>
+              <li>☎ 303.765.4508</li>
+              <li>✉ events@oysterdigital.com</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cp">
+          © 2026 Oyster Digital Security. All Rights Reserved. Privacy Policy ·
+          Terms &amp; Conditions
+        </div>
+      </div>
+    </footer>
+
+    <!--Header End-->
+
+    <!-- Back to top button -->
+
+    <a href="javascript:void(0);" id="backToTop">
+      <i class="fa fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Back to top button -->
+
+    <!-- Jquery  -->
+    <script src="js/jquery.min.js"></script>
+    <!-- wow animation -->
+    <script src="js/wow.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Font Awesome JS -->
+    <script src="js/font-awesome-all.min.js"></script>
+    <!-- Fancy Box -->
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <!-- Easy Responsive Tab -->
+    <script src="js/easy-responsive-tabs.js"></script>
+    <!-- Swiper -->
+    <script src="js/swiper.js"></script>
+    <!-- AOS JS -->
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>
